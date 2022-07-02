@@ -169,7 +169,7 @@ Windows DLL build is supported at a "best effort" basis and we don't recommend u
 That said, we don't actively prohibit building DLLs on windows (it can be enabled in cmake with `-DBUILD_SHARED_LIBS=ON`), and are free to use the DLL builds
 at your own risk.
 - you've been warned that there are some important drawbacks and some things might not work at all or will be broken in interesting ways.
-- we don't have extensive testing for DLL builds in place (to avoid maintenance costs, increased test duration etc.) so regressions / build breakages might occur
+- we don't have extensive testing for DLL builds in place (to avoid maintenance costs, increased test duration etc.) so regressions / build breakages might occur.
 
 ### Dependency management
 
